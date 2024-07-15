@@ -1,0 +1,37 @@
+.logo {
+    width: $logo-width;
+    height: $logo-height;
+    margin-left: $logo-margin-left;
+}
+    
+.navBar {
+    li {
+        display: inline;
+        position: relative;
+        padding: 0 50px;
+        font-size: $navbar-font-size;
+        
+        a {
+            color: $color-texto;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-hover;
+            }
+
+            &.active {
+                text-decoration: $navbar-active-underline;
+            }
+        }
+    }
+}
+
+.navBar {
+    font-size: $tamano-fuente;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.navbar-nav {
+    margin: 0 auto; 
+}

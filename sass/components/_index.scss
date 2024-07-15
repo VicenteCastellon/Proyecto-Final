@@ -1,0 +1,515 @@
+.container h2{
+    margin-top: 60px;
+}
+
+.col-md-6 p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    margin-left: 120px;
+}
+
+.custom-img {
+    display: flex;
+    justify-content:center ;
+    max-width: 400px;
+    height: 400px;
+    border-radius: 30px;
+    margin-left: 60px;
+    margin-top: 33px;
+}
+
+.col .texto{
+    display: flex;
+    justify-content: center;
+}
+
+.col p{
+    font-size: 20px;
+}
+
+.logo-small{
+    display: none   ;
+}
+
+
+/* Hasta 1440px */
+@media (max-width: 1440px) {
+        .logo {
+            display: flex;
+            justify-content: center;
+            width: 750px; 
+            height: 200px;
+        margin-left: 150px; 
+        
+    }
+
+    .custom-img {
+        max-width: 300px;
+        height: 300px;
+        border-radius: 30px;
+        margin-left: 100px;
+        margin-top: 55px;
+    }
+
+    .col .texto {
+        display: flex;
+        justify-content: center;
+    }
+    .logo-small {
+        display: none   ;
+    }   
+}
+
+/* Hasta 1024px */
+@media (max-width: 1024px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+        height: 200px;
+        margin-left: 110px;
+    }
+    .logo-small {
+        display: none;
+    
+    }   
+
+
+
+}
+
+/* Hasta 768px */
+
+@media (max-width: 768px) {
+    .col-md-6 img {
+        display: none; 
+    }
+
+    .texto-a{
+        margin-top: -10px;
+        text-align: center;
+    }
+
+    .texto-porcentajes{
+        text-align: center;
+    }
+
+    .texto{
+        text-align: center;
+        margin-top: 300px;
+        
+    }
+
+    .text-center h1{
+        margin-top: 50px;
+    }
+
+    .logo {
+        margin-left: 30px;
+        width: 600px;
+        height: 190px;
+        margin-top: 100px;
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
+        width: 30%; 
+    }   
+        
+
+    .navBar li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 p {
+        font-size: 20px;
+        margin-inline: 1.875rem;
+        
+    }
+}
+
+/* Hasta 425 */
+@media (max-width: 425px) {
+    .col-md-6 img {
+    display: none;
+    }
+
+    .texto-a{
+        margin-left: 100px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .texto-porcentajes{
+        text-align: center;
+        margin-left: 100px;
+    }
+
+    .texto h1{
+        text-align:center ;
+        font-size: 50px;
+        margin-left: 70px;
+    }
+
+    .porcentajes h2{
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+
+
+    .navBar {
+        margin-top: 300px; 
+    }
+
+    .navBar li a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .col-md-6 p{
+display: none;
+    }
+
+    }
+
+/* Hasta 375px */
+@media (max-width: 375px) {
+    .logo-small {
+        display: none;
+        width: 30%; 
+    }   
+
+}
+
+/* Hasta 320px */
+@media (max-width: 320px) {
+        .col-md-6 img {
+        display: none;
+        }
+    
+        .texto-a{
+            margin-left: 100px;
+            margin-top: 20px;
+            text-align: center;
+        }
+    
+        .texto-porcentajes{
+            text-align: center;
+            margin-left: 100px;
+        }
+    
+        .texto h1{
+            text-align:center ;
+            font-size: 50px;
+            margin-left: 70px;
+        }
+    
+        .texto{
+            text-align: center;
+            margin-top: 300px;
+            
+        }
+    
+        .porcentajes h2{
+            margin-top: 100px;
+            margin-left: 100px;
+        }
+    
+        .logo {
+            margin-left: 30px;
+            width: 600px;
+            height: 190px;
+            margin-top: 100px;
+            display: none;
+        }
+        .logo-small {   
+            display: none;
+        }   
+    
+        .navBar {
+            margin-top: 300px; 
+        }
+    
+        .navBar li a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+        }
+    
+        .row {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .col-md-6 p{
+    display: none;
+        }
+}
+
+
+/* NOTICIAS */
+
+
+
+.navBar {
+    font-size: $tamano-fuente;
+    text-align: center; 
+    margin-top: 20px; 
+}
+
+.navbar-nav {
+    margin: 0 auto; 
+}
+
+
+
+//425px
+
+@media(max-width: 425px){
+    .textoNoticias {
+        font-size: 60px;
+        margin-left: 100px;
+    }
+
+    .pNoticias{
+        margin-left: 60px;
+        }
+    }
+
+
+
+
+//320px
+
+    @media(max-width: 320px){
+        .col .image1 p{
+            text-align: center;
+            font-size: 40px;
+        }
+        .col .image2 p{
+            text-align: center;
+            font-size: 40px;
+        }
+        .col .image3 p{
+            text-align: center;
+            font-size: 40px;
+        }
+        
+        .col p{
+            text-align: center;
+            font-size: 23px;
+            margin-left: 40px;
+        }
+    }
+
+
+
+
+/* TEAM */
+
+.text-center-equipo{
+    text-align: center;
+}
+
+/* 1024 */
+
+@media(max-width:1024px){
+    .navBar .nav-item{
+        font-size: 15px;
+        color: black;
+    }
+    .text-center h1{
+        margin-left: 80px;
+    }
+    
+    }
+
+/* 768 */
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 10px;
+    }
+
+    .pTeam {
+        text-align: center;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+}
+
+
+
+
+
+/* 425 */
+
+@media (max-width: 425px){
+
+    .img-fluid{
+        display: none;
+    }
+
+    .text-center-equipo{
+        font-size: 40px;
+        margin-left: 60px;
+    }
+
+.texto p{
+        text-align: center;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+    .text-center h1{
+        text-align: center;
+        font-size: 40px;
+        margin-left: 30px;
+    }
+
+.texto p{
+        text-align: center;
+        margin-left: 30px;
+        margin-top: -30px;
+    }
+
+    .pTeam{
+        display: none;
+}
+
+.navBar {
+    margin-top: 30px; 
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+}
+
+
+}
+
+/* 320px */
+
+@media (max-width: 320px){
+
+    .card {
+        height: 400px; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-body {
+        margin-top: 20px; 
+    }
+
+    .card-title {
+        font-size: 30px; 
+        margin-bottom: 10px; 
+    }
+
+    .card-text {
+        font-size: 18px; 
+    }
+}
+
+        .text-center-equipo h1{
+            text-align: center;
+            font-size: 50px;
+            margin-left: 100px;
+        }
+    
+    .texto p{
+            text-align: center;
+            margin-left: 30px;
+            margin-top: -30px;
+        }
+    
+        .text-center h1{
+            text-align: center;
+            font-size: 40px;
+            margin-left: 30px;
+        }
+    
+    .texto p{
+            text-align: center;
+            margin-left: 30px;
+            margin-top: -30px;
+        }
+    
+        .pTeam{
+            display: none;
+    }
+    
+    .navBar {
+        margin-top: 30px; 
+    }
+    
+    .navBar li a {
+        text-decoration: none;
+        color: black;
+        font-size: 27px;
+    }
+
+
+/* contactanos */
+
+.contactanosText{
+    margin-top: 20px;
+    font-size: 25px;
+    color:black ;
+}
+
+.fotoPasto{
+    display: flex;
+    justify-content: center;
+    margin-left: 140px;
+    margin-top: 65px;  
+}
+
+@media(max-width: 425px){
+    .contactanosText{
+        font-size: 50px;
+    }
+}
+
+
+/* BLOG  */
+
+.pBlog p{
+    font-size: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.pBlog h1{
+    margin-top: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
